@@ -11,7 +11,7 @@ int main() {
     scanf("%d", &number);
 
    
-    if (isDivisibleBy3And5(number)) {
+    if(number % 15 == 0){
         printf("%d is divisible by both 3 and 5.\n", number);
     } else {
         printf("%d is not divisible by both 3 and 5.\n", number);
